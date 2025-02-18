@@ -12,7 +12,7 @@ The .pdf file shows how structure is linked to the data.
 
 ## Current implementation
 
-###JSMF
+### JSMF
 To install JSMF-core and dependencies to process files
 ``` npm install ``` 
 
