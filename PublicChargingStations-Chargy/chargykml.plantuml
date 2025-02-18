@@ -1,0 +1,66 @@
+@startuml
+Class Station {
+  name : String
+  visibility : Boolean
+  address : String
+  description : String
+}
+
+Station -"2" Data : ExtendedData
+Station -- Point : point
+
+Class Data {
+  displayName : String 
+
+}
+
+Class CPnumData {
+   value : Integer
+
+}
+
+Class ChargingDeviceData {
+
+}
+
+Class Point {
+  altitudeMode : AltitudeMode
+  coordinates : Coordinates
+}
+
+
+Class ChargingDevice{
+  id : Integer
+  name : String
+  numberOfConnectors : Integer,
+  
+}
+
+Class Connector {
+id: Integer
+name : String
+maxchspeed : Float
+connector : Integer
+description:ChargingStatus
+}
+
+
+enum ChargingStatus {
+   CHARGING
+   AVAILABLE
+   OFFLINE
+}
+
+enum AltitudeMode {
+ clampToGround
+}
+
+ChargingDeviceData -- ChargingDevice : value
+
+ChargingDevice --"1..*" Connector : connectors
+
+Data <|-- CPnumData
+Data <|-- ChargingDeviceData 
+
+
+@enduml

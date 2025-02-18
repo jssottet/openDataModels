@@ -1,0 +1,17 @@
+{
+  "name": "chargy",
+  "version": "1.0.0",
+  "description": "Chargy KML metamodel in JSMF + example",
+  "main": "chargykml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "metamodel"
+  ],
+  "author": "J-S Sottet",
+  "license": "MIT",
+  "dependencies": {
+    "jsmf-core": "^0.11.0"
+  }
+}
