@@ -67,6 +67,7 @@ module.exports = {
     ChargingDevice,
     Connector,
     ChargingStatus,
+    Coordinates,
     AltitudeMode
 };
 

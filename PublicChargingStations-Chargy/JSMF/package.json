@@ -12,6 +12,8 @@
   "author": "J-S Sottet",
   "license": "MIT",
   "dependencies": {
+    "fast-xml-parser": "^4.5.2",
+    "jsdom": "^26.0.0",
     "jsmf-core": "^0.11.0"
   }
 }
