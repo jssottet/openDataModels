@@ -22,4 +22,5 @@ To import a jsmf model from a KML file conforms to the JSMF metamodel :
 ```node transform.js ```
 Replace the path to the kml file with your data file.
 
-###BUML
+### B-UML
+To install necessary component to B-UML refers to [BESSER documentation](https://besser.readthedocs.io/en/latest/installation.html)
